@@ -1,6 +1,6 @@
 """
 Filename: player.py
-Author: Xander Stephens
+Author: Jacob Miller
 Purpose: Creates the player and what they are
          able to do."""
 
@@ -85,4 +85,5 @@ class Player(Card):
         """
         Change player's playAgain and done statuses back to False."""
         self.playAgain = False
+
         self.done = False
