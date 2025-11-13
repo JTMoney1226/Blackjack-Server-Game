@@ -1,6 +1,6 @@
 """
 Filename: dealer.py
-Author: Xander Stephens
+Author: Jacob Miller
 Purpose: Create the dealer class, which is 
          a child class of Player"""
 
@@ -39,4 +39,5 @@ class Dealer(Player):
 
     def clearHand(self):
         """Clears the dealers hand for the next round"""
+
         self.cards.clear()
