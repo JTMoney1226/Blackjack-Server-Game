@@ -1,6 +1,6 @@
 """
 Filename: client_handler.py
-Author: Xander Stephens
+Author: Jacob Miller
 Creates the client handler for multiple clients on the server
 Also plays the blackjack game and acts as the dealer for the players.
 """
@@ -142,4 +142,5 @@ class ClientHandler(Thread):
     def recvMssg(self):
         """
         Reveives a message from the client and returns it."""
+
         return decode(self.client.recv(BUFSIZE), CODE)
