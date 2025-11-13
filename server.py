@@ -1,5 +1,5 @@
 """Filename: server.py
-   Author: Xander Stephens
+   Author: Jacob Miller
    This file opens the server that the players
    will connect to for the blackjack game.
    """
@@ -23,4 +23,5 @@ while True:
     print("...connected to " + str(ADDRESS))
     handler = ClientHandler(client, game)
     clients.append(handler)
+
     handler.start()
