@@ -1,6 +1,6 @@
 """
 Filename: deck.py
-Author: Xander Stephens
+Author: Jacob Miller
 Purpose: Assemble the cards into a deck to play from"""
 
 from card import Card
@@ -50,4 +50,5 @@ class Deck(Card):
 
     def __len__(self):
         """Return the length of the deck of cards"""
+
         return len(self.cards)
