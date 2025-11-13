@@ -1,6 +1,6 @@
 """
 Filename: card.py
-Author: Xander Stephens
+Author: Jacob Miller
 Purpose: Create the card class for the blackjack game"""
 
 class Card:
@@ -40,4 +40,5 @@ class Card:
             rank = "King"
         else:
             rank = str(self.rank)
+
         return rank + " of " + self.suit
