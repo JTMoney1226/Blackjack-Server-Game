@@ -1,5 +1,5 @@
 """Filename: client.py
-   Author: Xander Stephens
+   Author: Jacob Miller
    This is the file that the players will use to connect 
    to the server.
 """
@@ -30,4 +30,5 @@ while True:
         break
     else:
         print(reply)
+
 server.close()
