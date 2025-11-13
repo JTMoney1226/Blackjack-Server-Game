@@ -1,6 +1,6 @@
 """
 Filename: shared.py
-Author: Xander Stephens
+Author: Jacob Miller
 Purpose: File of all shared objects in the game"""
 
 from player import Player
@@ -78,4 +78,5 @@ class SharedCell:
         if False in done:
             return False
         else:
+
             return True
